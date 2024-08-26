@@ -112,10 +112,8 @@ async function main() {
             headers,
           },
         );
-        console.log("Updated car:", response.data);
+        console.log("Delete car:", response.data);
         break;
-
-      // Другие действия...
       default:
         console.log("Unknown action:", action);
     }
